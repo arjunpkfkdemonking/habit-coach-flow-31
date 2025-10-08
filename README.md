@@ -68,7 +68,7 @@ Fitness apps often fade from user attention due to low engagement and unclear pr
 
 
   
-##  pronpt
+##  prompt
 
 I’m building a simple full-stack project called **Habitify** — a Habit Tracker & Life Progress app that simplifies daily habit tracking.
 
