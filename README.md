@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# 🏋️‍♂️ Elitra Fitness Tracker
 
-## Project info
+**Live demo:** [fitnesstrackercom.netlify.app](https://fitnesstrackercom.netlify.app/)  
+**Team:** *Elitra*  
+**AI Co-pilot used:** *Lovable* — a GPT-5 powered product design assistant.
 
-**URL**: https://lovable.dev/projects/27130620-2923-4da3-bdae-61bb7c9d4b44
+---
 
-## How can I edit this code?
+## 💡 Overview
+**Elitra Fitness Tracker** is a next-generation web app that blends **habit tracking**, **AI-driven coaching**, and **motivational psychology** to help users build their ideal physique — sustainably and intelligently.
 
-There are several ways of editing your application.
+Users set personal goals, track daily habits, and visualize progress through adaptive dashboards and streak-based gamification. The built-in **AI Coach** delivers personalized insights, reminders, and encouragement based on user behavior and preferences.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/27130620-2923-4da3-bdae-61bb7c9d4b44) and start prompting.
+## ✨ Core Features
+- **Goal Setting:** Define target physique, weight, or strength goals.
+- **Visual Progress:** Side-by-side *current vs. ideal physique* visualizer.
+- **Journey Graphs:** Track body metrics, habit streaks, and milestones over time.
+- **AI Coach:** Adaptive motivational chatbot using behavioral psychology.
+- **Gamified Streaks:**  
+  - One missed day per month forgiven.  
+  - Two consecutive inactive days → streak reset.  
+  - Earn XP, badges, and rewards for consistency.
+- **Privacy First:** All photos and metrics are private by default.
+- **Responsive Design:** Built for mobile-first use with dark-mode elegance.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 Motivation
+Fitness apps often fade from user attention due to low engagement and unclear progress feedback.  
+**Elitra** keeps motivation alive through:
+- Immediate feedback loops (visual + emotional).
+- Ethical behavioral nudges (“psyops” done right).
+- Personal tone adaptation — your coach learns *how you like to be motivated.*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧱 Tech Stack
+| Layer | Tool | Why |
+|-------|------|-----|
+| Frontend | **React + TypeScript** | Fast, maintainable, interactive UI |
+| Backend | **Node.js / Express (or NestJS)** | Robust, async-ready APIs |
+| Database | **PostgreSQL** | Reliable for relational + timeseries data |
+| Visualization | **D3.js / SVG-based charts** | Smooth, responsive graphs |
+| AI Coach | **OpenAI API (LLM)** | Personalized motivation and advice |
+| Auth | **OAuth + JWT (Auth0 / Firebase)** | Secure authentication |
+| Storage | **S3-compatible bucket** | Safe image & progress storage |
+| Hosting | **Vercel + Netlify** | Fast CI/CD and global CDN |
+| Analytics | **Mixpanel / PostHog** | Behavior insights and feedback loops |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🎨 Design Language
+- **Dark-mode first** with deep charcoal background (`#0B0C10`).
+- Accents of **electric blue** and **teal green** evoke focus and vitality.
+- Minimalist typography (`Inter`, `Roboto Mono`) ensures clarity.
+- Subtle animations encourage calm motivation rather than anxiety.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Prerequisites
+- Node.js ≥ 18  
+- PostgreSQL or Supabase instance  
+- `.env` file with API keys for Auth & AI (see below)
 
-**Edit a file directly in GitHub**
+### Setup
+```bash
+# 1. Clone the repo
+git clone https://github.com/elitra/fitness-tracker.git
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# 2. Move into the folder
+cd fitness-tracker
 
-**Use GitHub Codespaces**
+# 3. Install dependencies
+npm install
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/27130620-2923-4da3-bdae-61bb7c9d4b44) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# 4. Run the app
+npm start
