@@ -79,3 +79,21 @@ npm install
 
 # 4. Run the app
 npm start
+
+
+pronpt
+
+I’m building a simple full-stack project called **Habitify** — a Habit Tracker & Life Progress app that simplifies daily habit tracking.
+
+Requirements:
+- Must work on both **mobile and web** (Progressive Web App – PWA).
+- Use **React + TailwindCSS** for the frontend.
+- Use **Firebase (Auth + Firestore)** or **localStorage** for data.
+- Include habit creation, completion tracking by date, streaks, and archiving.
+- Save progress offline first, sync later (Firebase optional).
+- Elegant dark UI with pink highlights (modern look).
+- Should be easy to run with:
+  ```bash
+  npm install
+  npm run dev
+
