@@ -66,22 +66,9 @@ Fitness apps often fade from user attention due to low engagement and unclear pr
 - PostgreSQL or Supabase instance  
 - `.env` file with API keys for Auth & AI (see below)
 
-### Setup
-```bash
-# 1. Clone the repo
-git clone https://github.com/elitra/fitness-tracker.git
 
-# 2. Move into the folder
-cd fitness-tracker
-
-# 3. Install dependencies
-npm install
-
-# 4. Run the app
-npm start
-
-
-### pronpt
+  
+##  pronpt
 
 I’m building a simple full-stack project called **Habitify** — a Habit Tracker & Life Progress app that simplifies daily habit tracking.
 
@@ -97,3 +84,18 @@ Requirements:
   npm install
   npm run dev
 
+
+
+### Setup
+```bash
+# 1. Clone the repo
+git clone https://github.com/elitra/fitness-tracker.git
+
+# 2. Move into the folder
+cd fitness-tracker
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the app
+npm start
